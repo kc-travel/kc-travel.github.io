@@ -1,0 +1,28 @@
+.slider{
+    background-image: url(image/bora.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 10s infinite;
+ }   
+ @keyframes slide{
+     25%{
+         background-image: url(image/Amsterdam.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     50%{
+         background-image: url(image/Amsterdam2.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     75%{
+         background-image: url(image/Amsterdam4.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     100%{
+         background-image: url(image/Amsterdam3.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+ }
